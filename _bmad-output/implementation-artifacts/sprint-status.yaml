@@ -1,0 +1,90 @@
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created, ready for development
+#   - in-progress: Developer actively working on implementation
+#   - review: Implementation complete, ready for review
+#   - done: Story completed
+
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+
+# Action Item Status:
+#   - open: Committed during a retrospective, not yet addressed
+#   - in-progress: Actively being worked on
+#   - done: Completed
+
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when its first story starts (via build's sprint sync)
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates the next story after the previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+# - Retrospective appends its action items to action_items; the status view surfaces open ones
+generated: 10-06-2026 02:45
+last_updated: 10-06-2026 03:10
+project: SICOP
+project_key: NOKEY
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+development_status:
+  epic-1: in-progress
+  1-1-estructura-del-monorepo-y-tipos-base-del-motor: review
+  1-2-calendario-de-festivos-de-colombia: review
+  1-3-aritmética-de-días-hábiles: review
+  1-4-cálculo-de-menor-y-mínima-cuantía: review
+  1-5-recomendación-de-modalidad-de-selección: review
+  1-6-generación-y-validación-de-cronogramas: review
+  1-7-validación-de-garantías-mínimas: review
+  1-8-límite-de-adiciones-y-plazos-de-liquidación: review
+  epic-1-retrospective: optional
+
+  epic-2: backlog
+  2-1-esqueleto-de-la-api-con-base-de-datos: backlog
+  2-2-autenticación-y-roles: backlog
+  2-3-parámetros-anuales: backlog
+  2-4-bitácora-de-auditoría: backlog
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-gestión-del-paa: backlog
+  3-2-control-de-saldo-del-paa: backlog
+  3-3-crear-proceso-con-recomendación-de-modalidad: backlog
+  3-4-cronograma-del-proceso: backlog
+  3-5-flujos-de-estado-por-modalidad: backlog
+  3-6-adendas: backlog
+  3-7-proponentes-y-evaluación: backlog
+  3-8-adjudicación-o-declaratoria-de-desierto: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-crear-contrato: backlog
+  4-2-garantías-del-contrato: backlog
+  4-3-acta-de-inicio: backlog
+  4-4-informes-de-supervisión: backlog
+  4-5-pagos: backlog
+  4-6-modificaciones-contractuales: backlog
+  4-7-liquidación: backlog
+  epic-4-retrospective: optional
+
+  epic-5: backlog
+  5-1-documentos-del-expediente: backlog
+  5-2-exportar-expediente: backlog
+  5-3-alertas-de-vencimiento: backlog
+  5-4-ley-de-garantías: backlog
+  5-5-exportación-de-datos-y-paa: backlog
+  epic-5-retrospective: optional
+
+  epic-6: backlog
+  6-1-aplicación-web-y-autenticación: backlog
+  6-2-tablero-de-alertas: backlog
+  6-3-pantallas-de-paa-y-procesos: backlog
+  6-4-pantallas-de-contratos-y-ejecución: backlog
+  epic-6-retrospective: optional
