@@ -1,0 +1,20 @@
+{
+  "name": "@sicop/normativa",
+  "version": "0.1.0",
+  "description": "Motor normativo puro de la contratación estatal colombiana (Ley 80/1993, Ley 1150/2007, Decreto 1082/2015)",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:cobertura": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.7",
+    "typescript": "~5.9",
+    "vitest": "^3.2.7"
+  }
+}

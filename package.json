@@ -1,0 +1,15 @@
+{
+  "name": "sicop",
+  "private": true,
+  "description": "SICOP — Sistema de gestión de contratación pública para entidades estatales colombianas",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
